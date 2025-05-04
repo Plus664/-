@@ -256,9 +256,11 @@ const display_recipes = () => {
 
 window.onload = () => {
     input_form_container = document.getElementById("input_form-container");
+    input_form_container.style.display = "none";
     input_form = document.getElementById("input_form");
     input_form_button = document.getElementById("input_form_button");
     cover = document.getElementById("cover");
+    cover.style.display = "none";
     cover.addEventListener("click", () => {
         cover.style.display = "none";
         input_form_container.style.display = "none";
