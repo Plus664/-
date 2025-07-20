@@ -1,0 +1,174 @@
+#original_sheet-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6px;
+    margin-top: 220px;
+    width: 100%;
+}
+
+#original_sheet_label {
+    justify-self: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#recipe_name-container {
+    justify-self: center;
+    margin-top: 25px;
+    height: 30px;
+}
+
+#recipe_name_label {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#recipe_name {
+    padding: 2px;
+    width: 180px;
+    font-size: 20px;
+}
+
+#select-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6px;
+    justify-self: center;
+    margin-top: 10px;
+    width: 90%;
+}
+
+#select_label {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.characteristic-containers {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-self: center;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.select_labels {
+    font-size: 22px;
+}
+
+.characteristic_selects {
+    width: 220px;
+    height: 32px;
+    margin-left: 15px;
+    padding: 4px 0;
+    font-size: 18px;
+}
+
+.oils {
+    margin-left: 15px;
+}
+
+label {
+    font-size: 20px;
+}
+
+#suggest_option-container {
+    margin-top: 25px;
+    width: 100%;
+}
+
+#option_label {
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+#suggest_button {
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-bottom: 20px;
+    transform: translateX(-50%);
+    width: 230px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+}
+
+#options-container {
+    margin-left: 15px;
+}
+
+#options-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#water_ratio-container {
+    margin-top: 30px;
+    justify-self: center;
+    width: 300px;
+    font-size: 20px;
+}
+
+#water_ratio_val {
+    width: 80px;
+    height: 20px;
+    font-size: 18px;
+}
+
+#sap_ratio-container {
+    margin-top: 10px;
+    justify-self: center;
+    width: 300px;
+    font-size: 20px;
+}
+
+#sap_ratio_val {
+    width: 80px;
+    height: 20px;
+    font-size: 18px;
+}
+
+#alkali_ratio-container {
+    margin-top: 10px;
+    justify-self: center;
+    width: 300px;
+    font-size: 20px;
+}
+
+#alkali_ratio_val {
+    width: 80px;
+    height: 20px;
+    font-size: 18px;
+}
+
+#oil_sum-container {
+    margin-top: 10px;
+    justify-self: center;
+    width: 300px;
+    font-size: 20px;
+}
+
+#oil_sum_val {
+    width: 80px;
+    height: 20px;
+    font-size: 18px;
+}
+
+#calc_button {
+    margin-top: 30px;
+    justify-self: center;
+    border: none;
+    color: rgba(148, 170, 255, 1);
+    background-color: white;
+    font-size: 22px;
+    width: 120px;
+}
+
+#calc_button:hover {
+    color: white;
+    background-color: rgba(148, 170, 255, 1);
+}
