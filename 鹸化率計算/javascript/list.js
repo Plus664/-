@@ -290,9 +290,7 @@ const display_buttons = (id) => {
     delete_icon.style.fontSize = "20px";
     delete_icon.addEventListener("click", (e) => {
         e.stopPropagation();
-        if(confirm("このレシピを削除しますか？")) {
-            remove_pres(recipe.id);
-        }
+        remove_pres(recipe.id);
     });
 
     // ボタンを表示
